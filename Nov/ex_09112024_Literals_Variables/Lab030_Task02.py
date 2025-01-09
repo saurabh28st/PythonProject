@@ -1,11 +1,13 @@
 # Take 2 numbers from the user and print the Quotient and Reminder
 
-num1 = int(input("Please enter the input1 :"))
-num2 = int(input("Please enter the input2 :"))
+num1 = int(input("Please enter the first number (dividend) :"))
+num2 = int(input("Please enter the second number (divisor) :"))
 
-quo = num1/num2
+quotient = num1//num2
 # print(quo)
-print("Quotient is :",int(quo))
+print("Quotient is :",quotient)
 
-rem = num1%num2
-print("Reminder is :",rem)
+remainder = num1%num2
+print("Reminder is :",remainder)
+
+# In this program we can use the divmod()
