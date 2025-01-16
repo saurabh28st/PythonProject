@@ -1,8 +1,7 @@
-# Write a program to Outputt
+# Program to find the output
 
+a = 19
 if a==10:
     print("Hello World")
 else:
     print("Not Hello")
-
-print(type(a))
