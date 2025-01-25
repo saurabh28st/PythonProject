@@ -1,5 +1,4 @@
 # Left Triangle Star Pattern
-
 # *****
 # ****
 # ***
